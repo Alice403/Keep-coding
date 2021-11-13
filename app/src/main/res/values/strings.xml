@@ -4,12 +4,16 @@
     <string name="title_home">Home</string>
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
-    <string name="isla_de_los_micos">Isla de los Micos</string>
+    <string name="titulo">Isla de los Micos</string>
     <string name="ubicacion">Ubicación</string>
     <string name="horario">Horario</string>
-    <string name="leticia">Leticia, Colombia</string>
-    <string name="_7_00_a_m_10_00_p_m">7:00 a.m - 10:00 p.m</string>
+    <string name="ubicacion_text">Leticia, Colombia</string>
+    <string name="horario_text">7:00 a.m - 10:00 p.m</string>
     <string name="todo">TODO</string>
-    <string name="todo">TODO</string>
-    <string name="todo">TODO</string>
+    <string name="todo1">TODO</string>
+    <string name="todo2">TODO</string>
+    <string name="descripcion">Descripción</string>
+    <string name="descripcion_text">Su nombre se debe a la cantidad de micos que habitan el lugar y que se han convertido en gran atractivo para los turistas, quienes llegan allí a conocerlos, darles de comer y tomarse una atractiva foto.</string>
+    <string name="recomendaciones">Recomendaciones</string>
+    <string name="recomendaciones_text">Debes viajar unos 45 minutos en lancha, partiendo de Leticia. En este lugar vas a encontrar unas plataformas elevadas desde donde podrás observar a los micos, que son los habitantes de la zona.</string>
 </resources>
