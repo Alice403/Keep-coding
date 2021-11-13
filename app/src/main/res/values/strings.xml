@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">letiturismo</string>
+    <string name="title_activity_main2">MainActivity2</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="isla_de_los_micos">Isla de los Micos</string>
+    <string name="ubicacion">Ubicación</string>
+    <string name="horario">Horario</string>
+    <string name="leticia">Leticia, Colombia</string>
+    <string name="_7_00_a_m_10_00_p_m">7:00 a.m - 10:00 p.m</string>
+    <string name="todo">TODO</string>
+    <string name="todo">TODO</string>
+    <string name="todo">TODO</string>
 </resources>
