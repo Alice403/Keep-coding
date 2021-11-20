@@ -6,9 +6,10 @@ import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
+import com.squareup.picasso.Picasso
 
 class SitiosTuristicosAdapter(
-    private val SitiosTuristicosList: ArrayList<SitiosTuristicos>
+    private val SitiosTuristicosList: ArrayList<SitiosTuristicosItem>
 ) : RecyclerView.Adapter<SitiosTuristicosAdapter.ViewHolder>() {
 
     /*Definicion del Layout donde se va a crear la vista*/
@@ -31,13 +32,13 @@ class SitiosTuristicosAdapter(
         private var tituloTextView: TextView = itemView.findViewById(R.id.titulo_text_view)
         private var puntuacionTextView: TextView = itemView.findViewById(R.id.puntuacion_text_view)
         private var descriptionTextView: TextView = itemView.findViewById(R.id.descripcion_text_view)
-        //private var fotoImageView: ImageView = itemView.findViewById(R.id.foto_image_view)
+        private var fotoImageView: ImageView = itemView.findViewById(R.id.foto_image_view)
 
-        fun bind(sitiosTuristicos: SitiosTuristicos) {
+        fun bind(sitiosTuristicos: SitiosTuristicosItem) {
             tituloTextView.text = sitiosTuristicos.nombre
             puntuacionTextView.text = sitiosTuristicos.puntuacion.toString()
             descriptionTextView.text = sitiosTuristicos.descripcionCorta
-            //picture
+            Picasso.get().load(sitiosTuristicos.urlImagen).into(fotoImageView);
 
         }
     }

@@ -1,0 +1,100 @@
+ [
+    {
+        "nombre": "Isla de los Micos",
+        "puntuacion": 4.5,
+        "descripcionCorta": "Es una isla habitada por micos en la cual los turistas pueden convivir con ellos y tomarse fotos.",
+        "descripcion" : "Su nombre se debe a la cantidad de micos que habitan el lugar y que se han convertido en gran atractivo para los turistas, quienes llegan allí a conocerlos, darles de comer y tomarse una atractiva foto.",
+        "datosAdicionales" : "¿Cómo llegar? Debes viajar unos 45min en lancha, partiendo de Leticia. En este lugar vas a encontrar unas plataformas elevadas desde donde podrás observar a los micos, que son los habitantes de la zona.",
+        "horario": "8:00 am - 5:00 p.m",
+        "precio": "desde $30.000",
+        "ubicacion" : "La isla esta a 20 kilómetros río arriba de la ciudad de Leticia, a la altura de la localidad de Santa Sofía.",
+        "temperatura" : "27°",
+        "UrlImagen": "https://res.cloudinary.com/alejandra403/image/upload/v1637356279/islaDe_LosMicos_liyb2q.jpg"
+    },
+    {
+        "nombre": "Parque Ecológico Mundo Amazónico",
+        "puntuacion": 4.6,
+        "descripcionCorta": "Es un espacio donde se pueden observar distintas especies de plantas del amazonas.",
+        "descripcion" : "Es un espacio turístico con fines educativos en dónde se pueden observar distintas especies de plantas amazónicas y aprender cosas sobre ellas tales como sus propiedades curativas, cuidados, usos, entre otras cosas.",
+        "datosAdicionales" : "¿Cómo llegar? El parque está a unos 15min del centro de Leticia, se puede tomar transporte público en la ciudad o tomar un tour a mundo amazónico directamente con el parque y este tour incluye el transporte hasta el parque y devuelta.",
+        "horario": "Depende del plan, recorridos desde la 5:30am hasta las 8pm",
+        "precio": "desde $70.000",
+        "ubicacion" : "Km 7.7 Via Leticia Tarapaca",
+        "temperatura" : "30°",
+        "UrlImagen": "https://res.cloudinary.com/alejandra403/image/upload/v1637356279/parqueMundoAmazonico_u4aekg.jpg"
+    },
+    {
+        "nombre": "Museo Etnográfico del Banco de la República",
+        "puntuacion": 4.5,
+        "descripcionCorta": "En este museo podrás conocer sobre la cultura y la historia de la Amazonía visitando distintas salas.",
+        "descripcion" : "Este museo es un lugar para viajar por la Amazonía, conocer un poco de su historia y de la cultura de sus principales etnias como lo son los utioto, los yukuna y los ticuna.",
+        "datosAdicionales" : "El museo cuenta con 11 salas o espacios distintos y el recorrido se divide en 3 partes que pueden ser visitados en cualquier orden, los guías turísticos son en su mayoría personas perteneientes a distintas comunidades indígenas, por lo cual podrás escuchar las historias de primera mano ",
+        "horario": "Lunes-Viernes: 8:30am-6pm, Sábado 9am-1pm",
+        "precio": "el acceso es gratuito",
+        "ubicacion" : "Cra. 11 #9-43,Leticia - Amazonas",
+        "temperatura" : "30°",
+        "UrlImagen": "https://res.cloudinary.com/alejandra403/image/upload/v1637356279/museoEtnografico_tkesqi.jpg"
+    },
+    {
+        "nombre": "Dosel Tanimboca ",
+        "puntuacion":  4.8,
+        "descripcionCorta": "Es una reserva natural perfecta para los amantes de los deportes extremos y la naturaleza.",
+        "descripcion" : "Es una reserva natural en la cual se puede estar varios días y se pueden hacer distintas actividades extremas como tirolesa mientras disfrutas de la vista de la naturaleza ",
+        "datosAdicionales" : "Recomendaciones: Para todos los planes turísticos se recomienda llevar ropa fresca y camisas manga larga, protector solar, repelente, vacuna contra la fiebre amarilla, vestido de baño, morral y zapatos cómodos.",
+        "horario": "distintos planes con de 4 a 8 días de duración",
+        "precio": "Depende de la temporada, desde $290.000",
+        "ubicacion" : "Cra 10 #11-69, Leticia Amazonas",
+        "temperatura" : "30°",
+        "UrlImagen": "https://res.cloudinary.com/alejandra403/image/upload/v1637356279/doselTanimboca_v6ntmr.jpg"
+    },
+    {
+        "nombre": "Parque Santander",
+        "puntuacion":  4.3,
+        "descripcionCorta": "Es un parque público lleno de plantas y aves por conocer y admirar.",
+        "descripcion" : "Es un parque público en el cual habitan muchas aves diferentes debido a la gran variedad de vegetación que hay allí.",
+        "datosAdicionales" : "",
+        "horario": "abierto las 24 horas",
+        "precio": "el acceso es gratuito",
+        "ubicacion" : "Cra 10, Leticia Amazonas",
+        "temperatura" : "25°",
+        "UrlImagen": "https://res.cloudinary.com/alejandra403/image/upload/v1637356279/parqueSantander_milyyc.jpg"
+    },
+    
+    {
+        "nombre": "Lago Tarapoto",
+        "puntuacion": 5,
+        "descripcionCorta": "Es un lago en el que puedes observar distintos animales marinos como son los delfines rosados.",
+        "descripcion" : "Es un lago rodeado de vegetación en el cual se pueden avistar distintas especies marinas tales como delfines mientras disfrutas de la tranquilidad del agua.",
+        "datosAdicionales" : "¿Cómo llegar? Lo más recomendable es tomar una lancha desde Perto Nariño, pues desde Leticia el recorrido es bastante largo, de más o menos 80km.",
+        "horario": "8:00 a.m - 4:30",
+        "precio": "desde $90.000",
+        "ubicacion" : "Puerto Nariño, Amazonas",
+        "temperatura" : "27°",
+        "UrlImagen": "https://res.cloudinary.com/alejandra403/image/upload/v1637356279/lagoTarapoto_vsfqxb.jpg"
+    },
+    {
+        "nombre": "Parque Nacional Amacayacu",
+        "puntuacion": 4.5,
+        "descripcionCorta": "Es una reserva natural donde hay distintas clases de mamíferos, aves, animales acuáticos y plantas.",
+        "descripcion" : "Es una reserva natural destinada a cuidar la diversidad de la región, en el se pueden ver muchos mamíferos como los monos titis de cabeza blanca, más de 34500 especies de aves y distintos animales marinos como el delfín rosado.",
+        "datosAdicionales" : "¿Cómo llegar? Desde el puerto de Leticia se debe tomar una lancha río arriba en un recorrido aproximado de 2 horas, en el cual se podrán visualizar distintas islas como la isla de Ronda, de los Micos y los caseríos de Santa Sofía y Zaragosa.",
+        "horario": "8:10 a.m - 4:30 p.m",
+        "precio": "desde $18.000 nacionales y desde $53.500 extranjeros",
+        "ubicacion" : "Extremo sur del trapecio amazónico, a hora y media de Leticia en bote",
+        "temperatura" : "27°",
+        "UrlImagen": "https://res.cloudinary.com/alejandra403/image/upload/v1637356279/parqueAmacayacu_ibnxav.jpg"
+    },
+    {
+        "nombre": "Jardín de la Victoria Regia",
+        "puntuacion": 4.5,
+        "descripcionCorta": "Es un jardín botánico donde su mayor atracción son los ejemplares de la victoria regia, una hermosa planta acuática.",
+        "descripcion" : "Es un jardín botánico en el que puedes recorrer algunas secciones de la selva amazónica, allí encontrarás mariposas e insectos y también podrás ver las hojas de victoria regia sobre el lago, una hermosa especie de planta acuática.",
+        "datosAdicionales" : "¿Cómo llegar? Se puede tomar un bote desde Leticia, en un viaje de aproximadamente 20min.",
+        "horario": "8:00 a.m - 5:00 p.m",
+        "precio": "desde $5.000",
+        "ubicacion" : "ubicado a 8 km de Leticia, viajando 30 minutos en bote por el río Amazonas.",
+        "temperatura" : "15°",
+        "UrlImagen": "https://res.cloudinary.com/alejandra403/image/upload/v1637356279/jardinVictoriaRegia_tvbltg.jpg"
+    }
+
+]

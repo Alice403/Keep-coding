@@ -19,4 +19,5 @@
     <string name="temperatura_text">32°/22°</string>
     <string name="termometro">termometro</string>
     <string name="location">Location</string>
+    <string name="puntuacion">Puntuacion:</string>
 </resources>
