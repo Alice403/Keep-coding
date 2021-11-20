@@ -84,8 +84,8 @@
             <TextView
                 android:id="@+id/descripcion_text_view"
                 style="@style/Texto_normal"
-                android:layout_width="202dp"
-                android:layout_height="0dp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
                 android:layout_marginStart="8dp"
                 android:layout_marginTop="8dp"
