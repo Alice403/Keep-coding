@@ -62,7 +62,7 @@
     
     {
         "nombre": "Lago Tarapoto",
-        "puntuacion": 5,
+        "puntuacion": 5.0,
         "descripcionCorta": "Es un lago en el que puedes observar distintos animales marinos como son los delfines rosados.",
         "descripcion" : "Es un lago rodeado de vegetación en el cual se pueden avistar distintas especies marinas tales como delfines mientras disfrutas de la tranquilidad del agua.",
         "datosAdicionales" : "¿Cómo llegar? Lo más recomendable es tomar una lancha desde Perto Nariño, pues desde Leticia el recorrido es bastante largo, de más o menos 80km.",

@@ -17,7 +17,7 @@ data class SitiosTuristicosItem(
     @SerializedName("precio")
     val precio: String,
     @SerializedName("puntuacion")
-    val puntuacion: Float,
+    val puntuacion: Double,
     @SerializedName("temperatura")
     val temperatura: String,
     @SerializedName("ubicacion")
