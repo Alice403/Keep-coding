@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Letiturismo">
         <activity
-            android:name=".listaPOIActivity"
+            android:name=".ListPOIActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -20,8 +20,7 @@
         </activity>
         <activity
             android:name=".MainActivity"
-            android:exported="true">
-        </activity>
+            android:exported="true"></activity>
 
         <meta-data
             android:name="preloaded_fonts"
