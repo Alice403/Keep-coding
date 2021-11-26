@@ -1,7 +1,8 @@
-package com.alice403.letiturismo
+package com.alice403.letiturismo.model
 
 
 import com.google.gson.annotations.SerializedName
+import java.io.Serializable
 
 data class SitiosTuristicosItem(
     @SerializedName("datosAdicionales")
@@ -24,4 +25,4 @@ data class SitiosTuristicosItem(
     val ubicacion: String,
     @SerializedName("UrlImagen")
     val urlImagen: String
-)
+) : Serializable

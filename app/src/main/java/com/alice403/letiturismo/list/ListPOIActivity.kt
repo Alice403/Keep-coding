@@ -1,9 +1,14 @@
-package com.alice403.letiturismo
+package com.alice403.letiturismo.list
 
+import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import com.alice403.letiturismo.R
+import com.alice403.letiturismo.detalle.DetalleActivity
+import com.alice403.letiturismo.model.SitiosTuristicos
+import com.alice403.letiturismo.model.SitiosTuristicosItem
 import com.google.gson.Gson
 
 class ListPOIActivity : AppCompatActivity() {
@@ -23,7 +28,7 @@ class ListPOIActivity : AppCompatActivity() {
        // listSitiosTuristicos = createMockSitiosTuristicos()
         listSitiosTuristicos = loadMockSitiosTuristicosAdapterFromJson()
 
-        sitiosTuristicosAdapter = SitiosTuristicosAdapter(listSitiosTuristicos)
+        sitiosTuristicosAdapter = SitiosTuristicosAdapter(listSitiosTuristicos, onItemClicked = { onSitiosTuristicosClicked(it) })
 
 
 
@@ -35,8 +40,15 @@ class ListPOIActivity : AppCompatActivity() {
         //sitiosTuristicosRecyclerView.adapter = sitiosTuristicosAdapter
     }
 
+    private fun onSitiosTuristicosClicked(sitiosTuristicos: SitiosTuristicosItem) {
+        //Log.d( "nombre", sitiosTuristicos.nombre)
+        val intent = Intent( this, DetalleActivity::class.java)
+        intent.putExtra("sitioTuristico", sitiosTuristicos)
+        startActivity(intent)
+    }
+
     private fun loadMockSitiosTuristicosAdapterFromJson(): ArrayList<SitiosTuristicosItem> {
-        var  sitiosTuristicosString: String = applicationContext.assets.open("poi.json").bufferedReader().use{it.readText()}
+        val sitiosTuristicosString: String = applicationContext.assets.open("poi.json").bufferedReader().use{it.readText()}
         val gson = Gson()
         val data = gson.fromJson(sitiosTuristicosString, SitiosTuristicos::class.java)
         return data

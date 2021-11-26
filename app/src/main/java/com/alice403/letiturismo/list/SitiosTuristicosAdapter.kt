@@ -1,4 +1,4 @@
-package com.alice403.letiturismo
+package com.alice403.letiturismo.list
 
 import android.view.LayoutInflater
 import android.view.View
@@ -6,10 +6,13 @@ import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
+import com.alice403.letiturismo.R
+import com.alice403.letiturismo.model.SitiosTuristicosItem
 import com.squareup.picasso.Picasso
 
 class SitiosTuristicosAdapter(
-    private val SitiosTuristicosList: ArrayList<SitiosTuristicosItem>
+    private val SitiosTuristicosList: ArrayList<SitiosTuristicosItem>,
+    private val onItemClicked: (SitiosTuristicosItem) -> Unit
 ) : RecyclerView.Adapter<SitiosTuristicosAdapter.ViewHolder>() {
 
     /*Definicion del Layout donde se va a crear la vista*/
@@ -21,6 +24,7 @@ class SitiosTuristicosAdapter(
     /*Numero de datos de la lista*/
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
         val sitiosTuristicos = SitiosTuristicosList[position]
+        holder.itemView.setOnClickListener { onItemClicked(SitiosTuristicosList[position]) }
         holder.bind(sitiosTuristicos)
     }
 
