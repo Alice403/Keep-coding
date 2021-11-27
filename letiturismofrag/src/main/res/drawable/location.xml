@@ -1,0 +1,4 @@
+<vector android:height="30dp" android:viewportHeight="100"
+    android:viewportWidth="56.068" android:width="20.4272dp" xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="@color/british_racing_green" android:pathData="m28.034,0c-15.482,0 -28.034,12.552 -28.034,28.034s28.034,71.966 28.034,71.966 28.034,-56.483 28.034,-71.966 -12.551,-28.034 -28.034,-28.034zM28.034,40.477c-6.871,0 -12.442,-5.572 -12.442,-12.442 0,-6.872 5.571,-12.442 12.442,-12.442 6.872,0 12.442,5.57 12.442,12.442 0.001,6.87 -5.57,12.442 -12.442,12.442z"/>
+</vector>
