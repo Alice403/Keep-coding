@@ -5,8 +5,9 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.navigation.fragment.findNavController
+import androidx.recyclerview.widget.LinearLayoutManager
 import com.google.gson.Gson
-import com.keepcoding.letiturismofrag.R
 import com.keepcoding.letiturismofrag.databinding.FragmentListBinding
 import com.keepcoding.letiturismofrag.model.SitiosTuristicos
 import com.keepcoding.letiturismofrag.model.SitiosTuristicosItem
@@ -27,11 +28,16 @@ class ListFragment : Fragment() {
         return listBinding.root
     }
 
-    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         listSitiosTuristicos = loadMockSitiosTuristicosAdapterFromJson()
         sitiosTuristicosAdapter = SitiosTuristicosAdapter(listSitiosTuristicos, onItemClicked = { onSitiosTuristicosClicked(it) })
 
+        listBinding.poiRecyclerView.apply{
+            layoutManager = LinearLayoutManager(context)
+            adapter = sitiosTuristicosAdapter
+            setHasFixedSize(false)
+        }
     }
 
     private fun loadMockSitiosTuristicosAdapterFromJson(): ArrayList<SitiosTuristicosItem> {
@@ -42,7 +48,9 @@ class ListFragment : Fragment() {
     }
 
     private fun onSitiosTuristicosClicked(sitiosTuristicos: SitiosTuristicosItem) {
-        //TODO: programar detalle
+
+        findNavController().navigate(ListFragmentDirections.actionListFragmentToDetailFragment(sitioTuristico = sitiosTuristicos))
+
     }
 
 }

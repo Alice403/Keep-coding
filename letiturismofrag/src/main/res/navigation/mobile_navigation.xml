@@ -18,5 +18,9 @@
         android:id="@+id/detailFragment"
         android:name="com.keepcoding.letiturismofrag.detail.DetailFragment"
         android:label="fragment_detail"
-        tools:layout="@layout/fragment_detail" />
+        tools:layout="@layout/fragment_detail" >
+        <argument
+            android:name="sitioTuristico"
+            app:argType="com.keepcoding.letiturismofrag.model.SitiosTuristicosItem" />
+    </fragment>
 </navigation>
