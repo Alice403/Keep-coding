@@ -17,8 +17,7 @@ class SitiosTuristicosAdapter(
 
     /*Definicion del Layout donde se va a crear la vista*/
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
-        val view = LayoutInflater.from(parent.context)
-            .inflate(R.layout.card_view_poi, parent, false)
+        val view = LayoutInflater.from(parent.context).inflate(R.layout.card_view_poi, parent, false)
         return ViewHolder(view)
     }
     /*Numero de datos de la lista*/
@@ -43,7 +42,6 @@ class SitiosTuristicosAdapter(
             puntuacionTextView.text = sitiosTuristicos.puntuacion.toString()
             descriptionTextView.text = sitiosTuristicos.descripcionCorta
             Picasso.get().load(sitiosTuristicos.urlImagen).into(fotoImageView);
-
         }
     }
 }
