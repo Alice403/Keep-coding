@@ -18,11 +18,18 @@ data class SitiosTuristicosItem(
     @SerializedName("precio")
     val precio: String,
     @SerializedName("puntuacion")
-    val puntuacion: Double,
+    val puntuacion: String,
     @SerializedName("temperatura")
     val temperatura: String,
     @SerializedName("ubicacion")
     val ubicacion: String,
     @SerializedName("UrlImagen")
-    val urlImagen: String
+    val urlImagen: String,
+    @SerializedName("UrlImagen1")
+    val urlImagen1: String,
+    @SerializedName("UrlImagen2")
+    val urlImagen2: String,
+    @SerializedName("UrlImagen3")
+    val urlImagen3: String
+
 ) : Serializable
