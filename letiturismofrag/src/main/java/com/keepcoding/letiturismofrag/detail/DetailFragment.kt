@@ -38,6 +38,8 @@ class DetailFragment : Fragment() {
             ubicacionTextView.text = sitioTuristico.ubicacion
             horarioTextView.text = sitioTuristico.horario
             Picasso.get().load(sitioTuristico.urlImagen).into(imageView1)
+            Picasso.get().load(sitioTuristico.urlImagen2).into(imageView2)
+            Picasso.get().load(sitioTuristico.urlImagen3).into(imageView3)
          }
     }
 }
