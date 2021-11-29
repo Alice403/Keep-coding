@@ -50,7 +50,7 @@ class ListFragment : Fragment() {
     private fun onSitiosTuristicosClicked(sitiosTuristicos: SitiosTuristicosItem) {
 
         findNavController().navigate(ListFragmentDirections.actionListFragmentToDetailFragment(sitioTuristico = sitiosTuristicos))
-
+        //findNavController().navigate(ListFragmentDirections.actionListFragmentToSettingsFragment())
     }
 
 }
