@@ -22,4 +22,25 @@
     <string name="termometro">termometro</string>
     <string name="location">Location</string>
     <string name="puntuacion">Puntuacion:</string>
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="Notification">Notificaciones</string>
+    <string name="EnableNotifications">Activar Notificaciones</string>
+    <string name="EnableSoundNotifications">Activar Sonido de Notificaciones</string>
+    <string name="SoundOn">Sonido Activado</string>
+    <string name="SoundOff">Sonido Desactivado</string>
+    <string name="title_activity_bottom">BottomActivity</string>
+    <string name="preferences">Preferencias</string>
 </resources>

@@ -1,0 +1,35 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory app:title="@string/Notification">
+<!--
+
+        <SwitchPreferenceCompat
+            app:key="notifications"
+            app:title="@string/EnableNotifications" />
+
+        <SwitchPreferenceCompat
+            app:dependency="notifications"
+            app:key="soundNotifications"
+            app:summaryOff="@string/attachment_summary_off"
+            app:summaryOn="@string/SoundOff"
+            app:title="@string/EnableSoundNotifications" />
+-->
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="notifications"
+            android:title="@string/EnableNotifications"
+            android:icon="@drawable/ic_notifications"/>
+
+
+        <CheckBoxPreference
+            android:dependency="notifications"
+            android:defaultValue="false"
+            android:key="soundNotifications"
+            android:title="@string/EnableSoundNotifications"
+            android:icon="@drawable/ic_volume"/>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

@@ -9,6 +9,7 @@ import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.google.gson.Gson
 import com.keepcoding.letiturismofrag.databinding.FragmentListBinding
+import com.keepcoding.letiturismofrag.main.MainActivity
 import com.keepcoding.letiturismofrag.model.SitiosTuristicos
 import com.keepcoding.letiturismofrag.model.SitiosTuristicosItem
 
@@ -30,6 +31,7 @@ class ListFragment : Fragment() {
 
         override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
+            (activity as MainActivity)?.hideIcon()
         listSitiosTuristicos = loadMockSitiosTuristicosAdapterFromJson()
         sitiosTuristicosAdapter = SitiosTuristicosAdapter(listSitiosTuristicos, onItemClicked = { onSitiosTuristicosClicked(it) })
 
@@ -50,7 +52,7 @@ class ListFragment : Fragment() {
     private fun onSitiosTuristicosClicked(sitiosTuristicos: SitiosTuristicosItem) {
 
         findNavController().navigate(ListFragmentDirections.actionListFragmentToDetailFragment(sitioTuristico = sitiosTuristicos))
-
+        //findNavController().navigate(ListFragmentDirections.actionListFragmentToSettingsFragment())
     }
 
 }
