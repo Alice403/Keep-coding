@@ -42,4 +42,5 @@
     <string name="SoundOn">Sonido Activado</string>
     <string name="SoundOff">Sonido Desactivado</string>
     <string name="title_activity_bottom">BottomActivity</string>
+    <string name="preferences">Preferencias</string>
 </resources>
