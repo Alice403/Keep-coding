@@ -81,7 +81,7 @@
         app:layout_constraintTop_toBottomOf="@+id/horizontalScrollView">
 
         <RatingBar
-            android:id="@+id/thoughts_rating_bar_happy"
+            android:id="@+id/ratingBarHappy"
             android:layout_width="166dp"
             android:layout_height="40dp"
             android:layout_gravity="center_horizontal"
@@ -135,7 +135,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.15"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/thoughts_rating_bar_happy" />
+            app:layout_constraintTop_toBottomOf="@+id/ratingBarHappy" />
 
         <TextView
             android:id="@+id/textView3"
@@ -150,12 +150,12 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.829"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/thoughts_rating_bar_happy" />
+            app:layout_constraintTop_toBottomOf="@+id/ratingBarHappy" />
 
         <TextView
             android:id="@+id/ubicacionTextView"
             android:layout_width="150dp"
-            android:layout_height="72dp"
+            android:layout_height="70dp"
             android:layout_marginStart="8dp"
             android:layout_marginTop="16dp"
             android:layout_marginEnd="8dp"
@@ -177,7 +177,7 @@
         <TextView
             android:id="@+id/horarioTextView"
             android:layout_width="150dp"
-            android:layout_height="72dp"
+            android:layout_height="70dp"
             android:layout_marginStart="100dp"
             android:layout_marginTop="16dp"
             android:layout_marginEnd="8dp"
@@ -190,6 +190,7 @@
             android:textAllCaps="false"
             android:textColor="@color/british_racing_green"
             android:textSize="11sp"
+            app:autoSizeTextType="none"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.944"
             app:layout_constraintStart_toStartOf="parent"
@@ -268,7 +269,7 @@
             android:layout_marginEnd="16dp"
             android:contentDescription="@string/location"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toEndOf="@+id/thoughts_rating_bar_happy"
+            app:layout_constraintStart_toEndOf="@+id/ratingBarHappy"
             app:layout_constraintTop_toBottomOf="@+id/tituloTextView"
             app:srcCompat="@drawable/location" />
 
@@ -293,7 +294,7 @@
             android:layout_marginEnd="4dp"
             android:text="@string/temperatura_text"
             android:textAlignment="center"
-            app:layout_constraintEnd_toStartOf="@+id/thoughts_rating_bar_happy"
+            app:layout_constraintEnd_toStartOf="@+id/ratingBarHappy"
             app:layout_constraintTop_toBottomOf="@+id/tituloTextView" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>

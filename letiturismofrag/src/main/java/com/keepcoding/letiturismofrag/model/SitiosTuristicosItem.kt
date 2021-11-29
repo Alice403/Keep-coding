@@ -19,6 +19,8 @@ data class SitiosTuristicosItem(
     val precio: String,
     @SerializedName("puntuacion")
     val puntuacion: String,
+    @SerializedName("puntuacionrating")
+    val puntuacionrating: String,
     @SerializedName("temperatura")
     val temperatura: String,
     @SerializedName("ubicacion")

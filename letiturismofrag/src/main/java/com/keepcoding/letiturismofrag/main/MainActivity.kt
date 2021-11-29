@@ -11,8 +11,6 @@ import androidx.fragment.app.FragmentTransaction
 import com.keepcoding.letiturismofrag.R
 import com.keepcoding.letiturismofrag.preference.SettingsFragment
 
-//import com.keepcoding.letiturismofrag.preference.SettingsFragment
-
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
