@@ -43,4 +43,5 @@
     <string name="SoundOff">Sonido Desactivado</string>
     <string name="title_activity_bottom">BottomActivity</string>
     <string name="preferences">Preferencias</string>
+    <string name="info_adicional">Información adicional</string>
 </resources>
