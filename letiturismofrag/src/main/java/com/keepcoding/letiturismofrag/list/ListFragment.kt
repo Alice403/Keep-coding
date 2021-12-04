@@ -5,6 +5,8 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.fragment.app.viewModels
+import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.google.gson.Gson
@@ -16,7 +18,8 @@ import com.keepcoding.letiturismofrag.model.SitiosTuristicosItem
 class ListFragment : Fragment() {
 
     private lateinit var listBinding: FragmentListBinding
-    private lateinit var listSitiosTuristicos: ArrayList<SitiosTuristicosItem>
+    private lateinit var listViewModel: ListViewModel
+    private var listSitiosTuristicos: ArrayList<SitiosTuristicosItem>  = arrayListOf()
     private lateinit var sitiosTuristicosAdapter: SitiosTuristicosAdapter
 
     override fun onCreateView(
@@ -25,34 +28,37 @@ class ListFragment : Fragment() {
     ): View {
 
         listBinding = FragmentListBinding.inflate(inflater, container, false)
+        listViewModel = ViewModelProvider(this)[ListViewModel::class.java]
 
         return listBinding.root
     }
 
         override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
-        super.onViewCreated(view, savedInstanceState)
-            (activity as MainActivity)?.hideIcon()
-        listSitiosTuristicos = loadMockSitiosTuristicosAdapterFromJson()
-        sitiosTuristicosAdapter = SitiosTuristicosAdapter(listSitiosTuristicos, onItemClicked = { onSitiosTuristicosClicked(it) })
+            super.onViewCreated(view, savedInstanceState)
+                (activity as MainActivity)?.hideIcon()
+            listViewModel.loadMockSitiosTuristicosFromJson(context?.assets?.open("poi.json"))
 
-        listBinding.poiRecyclerView.apply{
-            layoutManager = LinearLayoutManager(context)
-            adapter = sitiosTuristicosAdapter
-            setHasFixedSize(false)
-        }
+            listViewModel.onSitiosTuristicosLoaded.observe(viewLifecycleOwner,{result -> onSitiosTuristicosLoadedSubscribe(result)})
+
+            sitiosTuristicosAdapter = SitiosTuristicosAdapter(listSitiosTuristicos, onItemClicked = {onSitiosTuristicosClicked(it) })
+
+            listBinding.poiRecyclerView.apply{
+                layoutManager = LinearLayoutManager(context)
+                adapter = sitiosTuristicosAdapter
+                setHasFixedSize(false)
+            }
     }
 
-    private fun loadMockSitiosTuristicosAdapterFromJson(): ArrayList<SitiosTuristicosItem> {
-        val sitiosTuristicosString: String = context?.assets?.open("poi.json")?.bufferedReader().use{ it!!.readText() } //TODO: reparar !!
-        val gson = Gson()
-        val data = gson.fromJson(sitiosTuristicosString, SitiosTuristicos::class.java)
-        return data
+    private fun onSitiosTuristicosLoadedSubscribe(result: ArrayList<SitiosTuristicosItem>?){
+        result?.let{ listSitiosTuristicos ->
+            sitiosTuristicosAdapter.appendItems(listSitiosTuristicos)
+
+        }
+
     }
 
     private fun onSitiosTuristicosClicked(sitiosTuristicos: SitiosTuristicosItem) {
-
         findNavController().navigate(ListFragmentDirections.actionListFragmentToDetailFragment(sitioTuristico = sitiosTuristicos))
-        //findNavController().navigate(ListFragmentDirections.actionListFragmentToSettingsFragment())
     }
 
 }

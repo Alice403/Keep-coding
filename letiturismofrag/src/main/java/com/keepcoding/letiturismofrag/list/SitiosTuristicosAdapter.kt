@@ -30,6 +30,11 @@ class SitiosTuristicosAdapter(
     /*Tamaño de la lista o Item*/
     override fun getItemCount(): Int = SitiosTuristicosList.size
 
+    fun appendItems(newItems: ArrayList<SitiosTuristicosItem>) {
+        SitiosTuristicosList.clear()
+        SitiosTuristicosList.addAll(newItems)
+        notifyDataSetChanged()
+    }
 
     class ViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
         private var tituloTextView: TextView = itemView.findViewById(R.id.titulo_text_view)
