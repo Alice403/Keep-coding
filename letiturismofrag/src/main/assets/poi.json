@@ -13,7 +13,9 @@
         "UrlImagen": "https://res.cloudinary.com/alejandra403/image/upload/v1637356279/islaDe_LosMicos_liyb2q.jpg",
         "UrlImagen1": "https://cdn.colombia.com/sdi/2013/11/21/isla-de-los-micos-709628.jpg",
         "UrlImagen2" : "https://upload.wikimedia.org/wikipedia/commons/2/2e/Entrada_a_la_isla_de_los_monos.JPG",
-        "UrlImagen3" : "https://4.bp.blogspot.com/_9qoxV2RHjdo/S_8MamF8BUI/AAAAAAAAACs/a1JbTjZplRk/s1600/isla+de+los+micos.jpg"
+        "UrlImagen3" : "https://4.bp.blogspot.com/_9qoxV2RHjdo/S_8MamF8BUI/AAAAAAAAACs/a1JbTjZplRk/s1600/isla+de+los+micos.jpg",
+        "latitud" : -1.4530341,
+        "longitud" : -70.4456992
     },
     {
         "nombre": "Parque Ecológico Mundo Amazónico",
@@ -29,7 +31,9 @@
         "UrlImagen": "https://res.cloudinary.com/alejandra403/image/upload/v1637356279/parqueMundoAmazonico_u4aekg.jpg",
         "UrlImagen1": "https://www.amazonate.com/hubfs/MATERIAL%202019/RECEPTIVOS%202019/Mundo%20Amazonico/FOTOS/Parque%20mundo%20amazonico%20(21).jpg",
         "UrlImagen2" : "https://www.planetour.com.co/demo/plan03/foto06.jpg",
-        "UrlImagen3" : "https://d3fky3asuafjls.cloudfront.net/7GHZ42hjLCdKUqF_e1UdiFPW83A=/fit-in/720x440/filters:fill(000)/03/08/39/03083986.jpg"
+        "UrlImagen3" : "https://d3fky3asuafjls.cloudfront.net/7GHZ42hjLCdKUqF_e1UdiFPW83A=/fit-in/720x440/filters:fill(000)/03/08/39/03083986.jpg",
+        "latitud" : -4.1463943,
+        "longitud" : -69.9314796
     },
     {
         "nombre": "Museo Etnográfico del Banco de la República",
@@ -45,7 +49,9 @@
         "UrlImagen": "https://res.cloudinary.com/alejandra403/image/upload/v1637356279/museoEtnografico_tkesqi.jpg",
         "UrlImagen1": "https://americanosfera.org/wp-content/uploads/2016/02/museoE.jpg",
         "UrlImagen2" : "https://cr00.epimg.net/programa/imagenes/2018/05/20/el_sabor_de_colombia/1526831469_705500_1526831767_noticia_normal.jpg",
-        "UrlImagen3" : "https://live.staticflickr.com/1637/24258801164_4237d76ff7_b.jpg"
+        "UrlImagen3" : "https://live.staticflickr.com/1637/24258801164_4237d76ff7_b.jpg",
+        "latitud" : -4.2140828,
+        "longitud" : -69.9449119
     },
     {
         "nombre": "Dosel Tanimboca",
@@ -61,7 +67,9 @@
         "UrlImagen": "https://res.cloudinary.com/alejandra403/image/upload/v1637356279/doselTanimboca_v6ntmr.jpg",
         "UrlImagen1": "https://cdn.colombia.com/sdi/2013/12/20/reserva-natural-tanimboca-850037.jpg",
         "UrlImagen2" : "https://www.amazonbb.com/wp-content/uploads/2019/07/tanimboca-reserve.jpg",
-        "UrlImagen3" : "https://viajareacolombia.com/wp-content/uploads/2020/07/reserva-natural-tanimboca.jpg"
+        "UrlImagen3" : "https://viajareacolombia.com/wp-content/uploads/2020/07/reserva-natural-tanimboca.jpg",
+        "latitud" : -4.1191775,
+        "longitud" : -69.9513829
     },
     {
         "nombre": "Parque Santander",
@@ -77,7 +85,9 @@
         "UrlImagen": "https://res.cloudinary.com/alejandra403/image/upload/v1637356279/parqueSantander_milyyc.jpg",
         "UrlImagen1": "https://elturismoencolombia.com/wp-content/uploads/2018/03/leticia_parque_santander_amazonas_colombia_travel.jpg",
         "UrlImagen2" : "https://i.ytimg.com/vi/NSPv1RiF7Ls/maxresdefault.jpg",
-        "UrlImagen3" : "https://upload.wikimedia.org/wikipedia/commons/5/53/Parque_Santander_Leticia_-_Amazonas_15-08-2015-91001.JPG"
+        "UrlImagen3" : "https://upload.wikimedia.org/wikipedia/commons/5/53/Parque_Santander_Leticia_-_Amazonas_15-08-2015-91001.JPG",
+        "latitud" : -4.2126354,
+        "longitud" : -69.9429974
     },
 
     {
@@ -94,7 +104,9 @@
         "UrlImagen": "https://res.cloudinary.com/alejandra403/image/upload/v1637356279/lagoTarapoto_vsfqxb.jpg",
         "UrlImagen1": "https://elturismoencolombia.com/wp-content/uploads/2018/03/amazonas_lago_tarapoto_amazonia_colombiana_travel_.jpg",
         "UrlImagen2" : "https://blogs.elespectador.com/wp-content/uploads/2018/01/Sotalia-fluviatilis.jpg",
-        "UrlImagen3" : "https://www.viajaporcolombia.com/images/lago-tarapoto.jpg"
+        "UrlImagen3" : "https://www.viajaporcolombia.com/images/lago-tarapoto.jpg",
+        "latitud" : -3.8029918,
+        "longitud" : -70.4235307
     },
     {
         "nombre": "Parque Nacional Amacayacu",
@@ -110,7 +122,9 @@
         "UrlImagen": "https://res.cloudinary.com/alejandra403/image/upload/v1637356279/parqueAmacayacu_ibnxav.jpg",
         "UrlImagen1": "https://encolombia.com/wp-content/uploads/2012/12/Amazonas-Colombia.jpeg",
         "UrlImagen2" : "https://www.sitiosturisticoscolombia.com/wp-content/uploads/amacayacu-leticia-amazonas.jpg",
-        "UrlImagen3" : "https://sites.google.com/site/parquenacionalamacayacu/_/rsrc/1468876603704/home/Amazonas-leticia-parque-nacional-natural-amacayacu-53405%20%281%29.JPG"
+        "UrlImagen3" : "https://sites.google.com/site/parquenacionalamacayacu/_/rsrc/1468876603704/home/Amazonas-leticia-parque-nacional-natural-amacayacu-53405%20%281%29.JPG",
+        "latitud" : -3.4241891,
+        "longitud" : -70.4015184
     },{
     "nombre": "Jardín de la Victoria Regia",
     "puntuacion": "4.5 / 5.0",
@@ -125,6 +139,8 @@
     "UrlImagen": "https://res.cloudinary.com/alejandra403/image/upload/v1637356279/jardinVictoriaRegia_tvbltg.jpg",
     "UrlImagen1": "https://live.staticflickr.com/2886/34072113672_cd20f29ef5_b.jpg",
     "UrlImagen2" : "https://media-cdn.tripadvisor.com/media/photo-m/1280/15/d7/54/f2/victoria-amazonica-tambien.jpg",
-    "UrlImagen3" : "https://location-colombia.s3-us-west-2.amazonaws.com/628/AMAZONAS-Planta-Victoria-Regia-PROEXPORT-2007-2.jpg"
+    "UrlImagen3" : "https://location-colombia.s3-us-west-2.amazonaws.com/628/AMAZONAS-Planta-Victoria-Regia-PROEXPORT-2007-2.jpg",
+    "latitud" : -4.1814032,
+    "longitud" : -69.9774157
 }
 ]

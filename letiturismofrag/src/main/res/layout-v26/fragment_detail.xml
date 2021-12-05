@@ -261,19 +261,6 @@
         </ScrollView>
 
         <ImageView
-            android:id="@+id/imageView6"
-            android:layout_width="26dp"
-            android:layout_height="33dp"
-            android:layout_marginStart="16dp"
-            android:layout_marginTop="24dp"
-            android:layout_marginEnd="16dp"
-            android:contentDescription="@string/location"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toEndOf="@+id/ratingBarHappy"
-            app:layout_constraintTop_toBottomOf="@+id/tituloTextView"
-            app:srcCompat="@drawable/location" />
-
-        <ImageView
             android:id="@+id/imageView5"
             android:layout_width="30dp"
             android:layout_height="36dp"
@@ -296,6 +283,21 @@
             android:textAlignment="center"
             app:layout_constraintEnd_toStartOf="@+id/ratingBarHappy"
             app:layout_constraintTop_toBottomOf="@+id/tituloTextView" />
+
+        <ImageButton
+            android:id="@+id/mapButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/esquinas_redondas_fondo"
+            android:contentDescription="@null"
+            android:minWidth="48dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.466"
+            app:layout_constraintStart_toEndOf="@+id/ratingBarHappy"
+            app:layout_constraintTop_toBottomOf="@+id/tituloTextView"
+            app:srcCompat="@drawable/location"
+            tools:ignore="SpeakableTextPresentCheck" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 

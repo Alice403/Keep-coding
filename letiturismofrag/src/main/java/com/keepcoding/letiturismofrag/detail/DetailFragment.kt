@@ -5,6 +5,7 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.navigation.fragment.findNavController
 import androidx.navigation.fragment.navArgs
 import com.keepcoding.letiturismofrag.R
 import com.keepcoding.letiturismofrag.databinding.FragmentDetailBinding
@@ -48,6 +49,10 @@ class DetailFragment : Fragment() {
             Picasso.get().load(sitioTuristico.urlImagen1).into(imageView1)
             Picasso.get().load(sitioTuristico.urlImagen2).into(imageView2)
             Picasso.get().load(sitioTuristico.urlImagen3).into(imageView3)
+
+            mapButton.setOnClickListener{
+                findNavController().navigate(DetailFragmentDirections.actionDetailFragmentToMapsFragment(sitioTuristico = sitioTuristico))
+            }
          }
     }
 }
