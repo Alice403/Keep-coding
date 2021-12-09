@@ -9,6 +9,7 @@ import android.view.ViewGroup
 import androidx.navigation.fragment.navArgs
 
 import com.google.android.gms.maps.CameraUpdateFactory
+import com.google.android.gms.maps.GoogleMap.*
 import com.google.android.gms.maps.OnMapReadyCallback
 import com.google.android.gms.maps.SupportMapFragment
 import com.google.android.gms.maps.model.LatLng
@@ -23,6 +24,8 @@ class MapsFragment : Fragment() {
         val sitio = LatLng(sitioTuristico.latitud, sitioTuristico.longitud)
         googleMap.addMarker(MarkerOptions().position(sitio).title(sitioTuristico.nombre))
         googleMap.moveCamera(CameraUpdateFactory.newLatLngZoom(sitio,15F))
+        //Cambio de Estilo de Mapa
+        googleMap.setMapType(MAP_TYPE_HYBRID)
     }
 
     override fun onCreateView(
