@@ -1,18 +1,15 @@
-package com.keepcoding.letiturismofrag.list
+package com.keepcoding.letiturismofrag.ui.list
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import androidx.fragment.app.viewModels
 import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.google.gson.Gson
 import com.keepcoding.letiturismofrag.databinding.FragmentListBinding
-import com.keepcoding.letiturismofrag.main.MainActivity
-import com.keepcoding.letiturismofrag.model.SitiosTuristicos
+import com.keepcoding.letiturismofrag.ui.main.MainActivity
 import com.keepcoding.letiturismofrag.model.SitiosTuristicosItem
 
 class ListFragment : Fragment() {
@@ -36,7 +33,11 @@ class ListFragment : Fragment() {
         override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
             super.onViewCreated(view, savedInstanceState)
                 (activity as MainActivity)?.hideIcon()
-            listViewModel.loadMockSitiosTuristicosFromJson(context?.assets?.open("poi.json"))
+
+            //Llamada del Json que carga la informacion
+            //listViewModel.loadMockSitiosTuristicosFromJson(context?.assets?.open("poi.json"))
+
+            listViewModel.getSitiosturisticosFromServer()
 
             listViewModel.onSitiosTuristicosLoaded.observe(viewLifecycleOwner,{result -> onSitiosTuristicosLoadedSubscribe(result)})
 

@@ -1,4 +1,4 @@
-package com.keepcoding.letiturismofrag.list
+package com.keepcoding.letiturismofrag.ui.list
 
 import android.view.LayoutInflater
 import android.view.View

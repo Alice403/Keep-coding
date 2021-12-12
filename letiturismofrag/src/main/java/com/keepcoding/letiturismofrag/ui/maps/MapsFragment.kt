@@ -1,4 +1,4 @@
-package com.keepcoding.letiturismofrag.maps
+package com.keepcoding.letiturismofrag.ui.maps
 
 import androidx.fragment.app.Fragment
 
@@ -15,15 +15,14 @@ import com.google.android.gms.maps.SupportMapFragment
 import com.google.android.gms.maps.model.LatLng
 import com.google.android.gms.maps.model.MarkerOptions
 import com.keepcoding.letiturismofrag.R
-import com.keepcoding.letiturismofrag.detail.DetailFragmentArgs
 
 class MapsFragment : Fragment() {
     private val args: MapsFragmentArgs by navArgs()
     private val callback = OnMapReadyCallback { googleMap ->
         val sitioTuristico = args.sitioTuristico
         val sitio = LatLng(sitioTuristico.latitud, sitioTuristico.longitud)
-        googleMap.addMarker(MarkerOptions().position(sitio).title(sitioTuristico.nombre))
-        googleMap.moveCamera(CameraUpdateFactory.newLatLngZoom(sitio,15F))
+        googleMap.addMarker(MarkerOptions().position(sitio).title(sitioTuristico.nombre).snippet("Precio: "+sitioTuristico.precio))
+        googleMap.moveCamera(CameraUpdateFactory.newLatLngZoom(sitio,16F))
         //Cambio de Estilo de Mapa
         googleMap.setMapType(MAP_TYPE_HYBRID)
     }

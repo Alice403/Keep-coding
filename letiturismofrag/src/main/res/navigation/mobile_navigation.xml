@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/listFragment"
-        android:name="com.keepcoding.letiturismofrag.list.ListFragment"
+        android:name="com.keepcoding.letiturismofrag.ui.list.ListFragment"
         android:label="fragment_list"
         tools:layout="@layout/fragment_list" >
         <action
@@ -19,7 +19,7 @@
     </fragment>
     <fragment
         android:id="@+id/detailFragment"
-        android:name="com.keepcoding.letiturismofrag.detail.DetailFragment"
+        android:name="com.keepcoding.letiturismofrag.ui.detail.DetailFragment"
         android:label="fragment_detail"
         tools:layout="@layout/fragment_detail" >
         <argument
@@ -31,11 +31,11 @@
     </fragment>
     <fragment
         android:id="@+id/settingsFragment"
-        android:name="com.keepcoding.letiturismofrag.preference.SettingsFragment"
+        android:name="com.keepcoding.letiturismofrag.ui.preference.SettingsFragment"
         android:label="SettingsFragment" />
     <fragment
         android:id="@+id/mapsFragment"
-        android:name="com.keepcoding.letiturismofrag.maps.MapsFragment"
+        android:name="com.keepcoding.letiturismofrag.ui.maps.MapsFragment"
         android:label="fragment_maps"
         tools:layout="@layout/fragment_maps" >
         <argument android:name="sitioTuristico"

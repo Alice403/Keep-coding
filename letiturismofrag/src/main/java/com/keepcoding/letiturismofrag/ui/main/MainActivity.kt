@@ -1,4 +1,4 @@
-package com.keepcoding.letiturismofrag.main
+package com.keepcoding.letiturismofrag.ui.main
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -9,7 +9,7 @@ import androidx.appcompat.app.ActionBar
 import androidx.fragment.app.FragmentManager
 import androidx.fragment.app.FragmentTransaction
 import com.keepcoding.letiturismofrag.R
-import com.keepcoding.letiturismofrag.preference.SettingsFragment
+import com.keepcoding.letiturismofrag.ui.preference.SettingsFragment
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

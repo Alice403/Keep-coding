@@ -1,11 +1,11 @@
-package com.keepcoding.letiturismofrag.preference
+package com.keepcoding.letiturismofrag.ui.preference
 
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuInflater
 import androidx.preference.PreferenceFragmentCompat
 import com.keepcoding.letiturismofrag.R
-import com.keepcoding.letiturismofrag.main.MainActivity
+import com.keepcoding.letiturismofrag.ui.main.MainActivity
 
 class SettingsFragment : PreferenceFragmentCompat() {
 

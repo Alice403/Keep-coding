@@ -37,7 +37,7 @@
             android:exported="false"
             android:label="@string/title_activity_bottom" /> -->
         <activity
-            android:name=".main.MainActivity"
+            android:name="com.keepcoding.letiturismofrag.ui.main.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
