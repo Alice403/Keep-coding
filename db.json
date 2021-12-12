@@ -89,24 +89,6 @@
             "UrlImagen3": "https://www.viajaporcolombia.com/images/lago-tarapoto.jpg",
             "latitud": -3.80299,
             "longitud": -70.42134
-        },
-        {
-            "nombre": "Jardín de la Victoria Regia",
-            "puntuacion": "4.5 / 5.0",
-            "puntuacionrating": "4.5",
-            "descripcionCorta": "Es un jardín botánico donde su mayor atracción son los ejemplares de la victoria regia, una hermosa planta acuática.",
-            "descripcion": "Es un jardín botánico en el que puedes recorrer algunas secciones de la selva amazónica, allí encontrarás mariposas e insectos y también podrás ver las hojas de victoria regia sobre el lago, una hermosa especie de planta acuática.",
-            "datosAdicionales": "¿Cómo llegar? Se puede tomar un bote desde Leticia, en un viaje de aproximadamente 20 min.",
-            "horario": "8:00 a.m - 5:00 p.m",
-            "precio": "desde $5.000",
-            "ubicacion": "A 8 km de Leticia",
-            "temperatura": "15°",
-            "UrlImagen": "https://res.cloudinary.com/alejandra403/image/upload/v1637356279/jardinVictoriaRegia_tvbltg.jpg",
-            "UrlImagen1": "https://live.staticflickr.com/2886/34072113672_cd20f29ef5_b.jpg",
-            "UrlImagen2": "https://media-cdn.tripadvisor.com/media/photo-m/1280/15/d7/54/f2/victoria-amazonica-tambien.jpg",
-            "UrlImagen3": "https://location-colombia.s3-us-west-2.amazonaws.com/628/AMAZONAS-Planta-Victoria-Regia-PROEXPORT-2007-2.jpg",
-            "latitud": -4.18200,
-            "longitud": -69.97665
         }
     ]
 }
