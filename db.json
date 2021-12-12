@@ -36,7 +36,7 @@
             "latitud": -4.146705,
             "longitud": -69.930791
         },
-                {
+        {
             "nombre": "Reserva Natural Tanimboca",
             "puntuacion": "4.8 / 5.0",
             "puntuacionrating": "4.8",
@@ -53,6 +53,24 @@
             "UrlImagen3": "https://viajareacolombia.com/wp-content/uploads/2020/07/reserva-natural-tanimboca.jpg",
             "latitud": -4.11949,
             "longitud": -69.95098
+        },
+        {
+            "nombre": "Museo Etnográfico del Banco de la República",
+            "puntuacion": "4.5 / 5.0",
+            "puntuacionrating": "4.5",
+            "descripcionCorta": "En este museo podrás conocer sobre la cultura y la historia de la Amazonía visitando distintas salas.",
+            "descripcion": "Este museo es un lugar para viajar por la Amazonía, conocer un poco de su historia y de la cultura de sus principales etnias como lo son los utioto, los yukuna y los ticuna.",
+            "datosAdicionales": "El museo cuenta con 11 salas o espacios distintos y el recorrido se divide en 3 partes que pueden ser visitados en cualquier orden, los guías turísticos son en su mayoría personas perteneientes a distintas comunidades indígenas, por lo cual podrás escuchar las historias de primera mano.",
+            "horario": "Semana: 8:30 a.m.-6:00 p.m. Sábado: 9 a.m.-1 p.m.",
+            "precio": "El acceso es gratuito",
+            "ubicacion": "Cra. 11 #9-43,Leticia",
+            "temperatura": "30°",
+            "UrlImagen": "https://res.cloudinary.com/alejandra403/image/upload/v1637356279/museoEtnografico_tkesqi.jpg",
+            "UrlImagen1": "https://americanosfera.org/wp-content/uploads/2016/02/museoE.jpg",
+            "UrlImagen2": "https://cr00.epimg.net/programa/imagenes/2018/05/20/el_sabor_de_colombia/1526831469_705500_1526831767_noticia_normal.jpg",
+            "UrlImagen3": "https://live.staticflickr.com/1637/24258801164_4237d76ff7_b.jpg",
+            "latitud": -4.2141743,
+            "longitud": -69.944077
         },
         {
             "nombre": "Lago Tarapoto",
