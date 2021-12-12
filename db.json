@@ -73,24 +73,6 @@
             "longitud": -69.95098
         },
         {
-            "nombre": "Parque Santander",
-            "puntuacion": "4.0 / 5.0",
-            "puntuacionrating": "4.0",
-            "descripcionCorta": "Es un parque público lleno de plantas y aves por conocer y admirar.",
-            "descripcion": "Es un parque público en el cual habitan muchas aves diferentes debido a la gran variedad de vegetación que hay allí.",
-            "datosAdicionales": "En el parque se pueden encontrar muchos insectos, por esto se recomienda utilizar un buen repelente.",
-            "horario": "24hrs",
-            "precio": "el acceso es gratuito",
-            "ubicacion": "Cra 10, Leticia",
-            "temperatura": "25°",
-            "UrlImagen": "https://res.cloudinary.com/alejandra403/image/upload/v1637356279/parqueSantander_milyyc.jpg",
-            "UrlImagen1": "https://elturismoencolombia.com/wp-content/uploads/2018/03/leticia_parque_santander_amazonas_colombia_travel.jpg",
-            "UrlImagen2": "https://i.ytimg.com/vi/NSPv1RiF7Ls/maxresdefault.jpg",
-            "UrlImagen3": "https://upload.wikimedia.org/wikipedia/commons/5/53/Parque_Santander_Leticia_-_Amazonas_15-08-2015-91001.JPG",
-            "latitud": -4.21262,
-            "longitud": -69.94300
-        },
-        {
             "nombre": "Lago Tarapoto",
             "puntuacion": "5.0 / 5.0",
             "puntuacionrating": "5.0",
