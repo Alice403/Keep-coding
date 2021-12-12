@@ -73,24 +73,6 @@
             "longitud": -69.95098
         },
         {
-            "nombre": "Parque Santander",
-            "puntuacion": "4.0 / 5.0",
-            "puntuacionrating": "4.0",
-            "descripcionCorta": "Es un parque público lleno de plantas y aves por conocer y admirar.",
-            "descripcion": "Es un parque público en el cual habitan muchas aves diferentes debido a la gran variedad de vegetación que hay allí.",
-            "datosAdicionales": "En el parque se pueden encontrar muchos insectos, por esto se recomienda utilizar un buen repelente.",
-            "horario": "24hrs",
-            "precio": "el acceso es gratuito",
-            "ubicacion": "Cra 10, Leticia",
-            "temperatura": "25°",
-            "UrlImagen": "https://res.cloudinary.com/alejandra403/image/upload/v1637356279/parqueSantander_milyyc.jpg",
-            "UrlImagen1": "https://elturismoencolombia.com/wp-content/uploads/2018/03/leticia_parque_santander_amazonas_colombia_travel.jpg",
-            "UrlImagen2": "https://i.ytimg.com/vi/NSPv1RiF7Ls/maxresdefault.jpg",
-            "UrlImagen3": "https://upload.wikimedia.org/wikipedia/commons/5/53/Parque_Santander_Leticia_-_Amazonas_15-08-2015-91001.JPG",
-            "latitud": -4.21262,
-            "longitud": -69.94300
-        },
-        {
             "nombre": "Lago Tarapoto",
             "puntuacion": "5.0 / 5.0",
             "puntuacionrating": "5.0",
@@ -107,42 +89,6 @@
             "UrlImagen3": "https://www.viajaporcolombia.com/images/lago-tarapoto.jpg",
             "latitud": -3.80299,
             "longitud": -70.42134
-        },
-        {
-            "nombre": "Parque Nacional Amacayacu",
-            "puntuacion": "4.5 / 5.0",
-            "puntuacionrating": "4.5",
-            "descripcionCorta": "Es una reserva natural donde hay distintas clases de mamíferos, aves, animales acuáticos y plantas.",
-            "descripcion": "Es una reserva natural destinada a cuidar la diversidad de la región, en el se pueden ver muchos mamíferos como los monos titis de cabeza blanca, más de 34500 especies de aves y distintos animales marinos como el delfín rosado.",
-            "datosAdicionales": "¿Cómo llegar? Desde el puerto de Leticia se debe tomar una lancha río arriba en un recorrido aproximado de 2 horas, en el cual se podrán visualizar distintas islas como la isla de Ronda, de los Micos y los caseríos de Santa Sofía y Zaragosa.",
-            "horario": "8:10 a.m - 4:30 p.m",
-            "precio": "desde $18.000 nacionales y desde $53.500 extranjeros",
-            "ubicacion": "Extremo sur del trapecio amazónico",
-            "temperatura": "27°",
-            "UrlImagen": "https://res.cloudinary.com/alejandra403/image/upload/v1637356279/parqueAmacayacu_ibnxav.jpg",
-            "UrlImagen1": "https://encolombia.com/wp-content/uploads/2012/12/Amazonas-Colombia.jpeg",
-            "UrlImagen2": "https://www.sitiosturisticoscolombia.com/wp-content/uploads/amacayacu-leticia-amazonas.jpg",
-            "UrlImagen3": "https://sites.google.com/site/parquenacionalamacayacu/_/rsrc/1468876603704/home/Amazonas-leticia-parque-nacional-natural-amacayacu-53405%20%281%29.JPG",
-            "latitud": -3.44539,
-            "longitud": -70.14496
-        },
-        {
-            "nombre": "Jardín de la Victoria Regia",
-            "puntuacion": "4.5 / 5.0",
-            "puntuacionrating": "4.5",
-            "descripcionCorta": "Es un jardín botánico donde su mayor atracción son los ejemplares de la victoria regia, una hermosa planta acuática.",
-            "descripcion": "Es un jardín botánico en el que puedes recorrer algunas secciones de la selva amazónica, allí encontrarás mariposas e insectos y también podrás ver las hojas de victoria regia sobre el lago, una hermosa especie de planta acuática.",
-            "datosAdicionales": "¿Cómo llegar? Se puede tomar un bote desde Leticia, en un viaje de aproximadamente 20 min.",
-            "horario": "8:00 a.m - 5:00 p.m",
-            "precio": "desde $5.000",
-            "ubicacion": "A 8 km de Leticia",
-            "temperatura": "15°",
-            "UrlImagen": "https://res.cloudinary.com/alejandra403/image/upload/v1637356279/jardinVictoriaRegia_tvbltg.jpg",
-            "UrlImagen1": "https://live.staticflickr.com/2886/34072113672_cd20f29ef5_b.jpg",
-            "UrlImagen2": "https://media-cdn.tripadvisor.com/media/photo-m/1280/15/d7/54/f2/victoria-amazonica-tambien.jpg",
-            "UrlImagen3": "https://location-colombia.s3-us-west-2.amazonaws.com/628/AMAZONAS-Planta-Victoria-Regia-PROEXPORT-2007-2.jpg",
-            "latitud": -4.18200,
-            "longitud": -69.97665
         }
     ]
 }
