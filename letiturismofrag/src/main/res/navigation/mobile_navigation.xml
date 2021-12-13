@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@id/listFragment">
+    app:startDestination="@id/splashFragment">
 
     <fragment
         android:id="@+id/listFragment"
@@ -40,5 +40,16 @@
         tools:layout="@layout/fragment_maps" >
         <argument android:name="sitioTuristico"
             app:argType="com.keepcoding.letiturismofrag.model.SitiosTuristicosItem" />
+    </fragment>
+    <fragment
+        android:id="@+id/splashFragment"
+        android:name="com.keepcoding.letiturismofrag.ui.splash.SplashFragment"
+        android:label="fragment_splash"
+
+        tools:layout="@layout/fragment_splash" >
+
+        <action
+            android:id="@+id/action_splashFragment_to_listFragment"
+            app:destination="@id/listFragment" />
     </fragment>
 </navigation>
